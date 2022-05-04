@@ -37,14 +37,16 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "^1.51.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukaszwojcik89/mfinder.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "wojcik.l@tlen.pl",
+  "license": "Beerware License",
   "bugs": {
     "url": "https://github.com/lukaszwojcik89/mfinder/issues"
   },
