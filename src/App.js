@@ -35,7 +35,6 @@ function App() {
                 <input type="text" id="search" value={value} onChange={handleChange} />
                 <button type="submit">Find</button>
             </form>
-=
             {movies.map((movie) => (
                 <div key={movie.id} style={{ 'border': '1px solid lightcoral', 'borderRadius': '15px', 'padding': '10px', 'margin': '10px' }}>
                     <h2>{movie.title}</h2>
@@ -49,6 +48,7 @@ function App() {
         </div>
     );
 }
+
 
 
 export default App;
